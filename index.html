@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{'TITLE' | translate}}</title>
+	<!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <div id="wrapper">
+ 
+		
+		<div ng-include src="'angularviews/navigation/primary-navigator.html'"></div>
+            <div ng-view></div>
+			
+        
+         <!-- /. PAGE WRAPPER  -->
+        </div>
+     <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery-ui.min.js"></script>
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/angular-route.min.js"></script>
+        <script src="assets/js/ui-boostrap-0.9.0.min.js"></script>
+        <script src="assets/js/angular-cookies.min.js"></script>
+        <script src="assets/js/angular-locale_de-de.js"></script>
+        <script src="assets/js/angular-translate.min.js"></script>
+        <script src="assets/js/angular-translate-loader-static-files.min.js"></script>
+		        <!-- METISMENU SCRIPTS -->
+        <script src="assets/js/jquery.metisMenu.js"></script>
+
+
+        <script src="assets/js/myApp.js"></script>
+
+        <script src="assets/js/controllers/commonController.js"></script>
+        
+		<script src="assets/js/controllers/homePageController.js"></script>
+		
+		<script src="assets/js/controllers/categoriesController.js"></script>
+		<script src="assets/js/controllers/spendingsController.js"></script>
+
+
+
+    
+   
+</body>
+</html>

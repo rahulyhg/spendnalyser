@@ -1,0 +1,31 @@
+<div id="page-wrapper">
+<div id="page-inner">          
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header">{{'CATS'| translate}}</h3>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+
+    <div class="row form-group">
+        <div ng-repeat='(key, prop) in categories track by key' class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<div class="offer offer-radius offer-primary">
+		<div class="shape">
+		<div class="shape-text">new</div></div>
+		<div class="offer-content"><h5 class="lead">{{prop.type}}</h5>
+		<p>Category description if any</p><p>
+		<a class="btn btn-circle btn-primary" href="#">
+		<i class="fa fa-edit fa-3x"></i></a> &nbsp;&nbsp;
+		<a class="btn btn-circle btn-warning" href="#"><i class="fa fa-times fa-3x"></i>
+		</a>
+		</p>
+		</div>
+		</div>
+		</div>
+        </div> 
+
+
+    </div> 
+ </div>
+</div>
+<!-- /#page-wrapper -->
