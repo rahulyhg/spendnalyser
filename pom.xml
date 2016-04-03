@@ -18,7 +18,7 @@
 		<sonar.host.url>http://localhost:9000/</sonar.host.url>
 		
 		
-		<sonar.language>php</sonar.language>
+		<sonar.language>php, javascript</sonar.language>
 		<sonar.dynamicAnalysis>false</sonar.dynamicAnalysis>
 		<sonar.skipPackageDesign>true</sonar.skipPackageDesign>
 		<sonar.skipDesign>true</sonar.skipDesign>
